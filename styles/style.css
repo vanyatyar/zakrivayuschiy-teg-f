@@ -240,10 +240,6 @@
   border-color: var(--color-main);
 }
 
-.card__like-button:focus {
-  outline: none;
-}
-
 .button__text {
   font-family: var(--font-accent, monospace);
   font-weight: 400;
@@ -394,10 +390,6 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
-}
-
-.card__like-button:focus {
-  text-shadow: 2px 2px 0 var(--shadow);
 }
 
 @media (width <= 375px) {
