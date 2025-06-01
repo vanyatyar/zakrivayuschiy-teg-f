@@ -111,6 +111,36 @@
   display: block;
 }
 
+.brightness {
+  filter: brightness(230%);
+}
+
+.contrast {
+  filter: contrast(60%);
+}
+
+.blur {
+  filter: blur(76%);
+}
+
+.grayscale {
+  filter: grayscale(0.5);
+}
+
+.saturate {
+  filter: saturate(120%);
+}
+
+.sepia-hue-rotate {
+  filter: sepia(46), hue-rotate(-76deg);
+}
+
+.invert {
+  filter: invert(0.2);
+}
+
+
+
 @media (width <= 375px) {
   .main__card_image {
     width: 374px;
