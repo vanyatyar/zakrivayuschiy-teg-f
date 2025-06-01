@@ -396,7 +396,7 @@
   justify-content: center;
 }
 
-.card__like-button:focus {--------
+.card__like-button:focus {
   text-shadow: 2px 2px 0 var(--shadow);
 }
 
