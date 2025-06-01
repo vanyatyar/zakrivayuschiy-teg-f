@@ -1,1 +1,1 @@
-git@github.com:vanyatyar/slozhno-sosredotochitsya-fd.git
+git@github.com:vanyatyar/zakrivayuschiy-teg-f.git
