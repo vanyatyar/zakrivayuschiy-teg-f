@@ -83,6 +83,7 @@
   display: flex;
   align-items: center;
   margin-top: 24px;
+  gap: 8px;
   margin-bottom: 0px;
   justify-content: flex-end;
 }
@@ -235,24 +236,12 @@
   outline: none;
 }
 
-.card__buttons {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 23px;
-  margin-bottom: 0px;
-  justify-content: flex-end;
-}
 .card__icon-button:focus-visible {
   border-color: var(--color-main);
 }
 
 .card__like-button:focus {
   outline: none;
-}
-
-.card__like-button:focus-visible {
-  box-shadow: 2px 2px 0 var(--color-main, #000);
 }
 
 .button__text {
@@ -407,7 +396,7 @@
   justify-content: center;
 }
 
-.card__like-button:focus {
+.card__like-button:focus {--------
   text-shadow: 2px 2px 0 var(--shadow);
 }
 
