@@ -72,10 +72,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-block-end: 105px;
+   gap: 50px;
 }
 
 .main__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 49px;
   margin-top: 100px;
 }
 
@@ -89,7 +92,6 @@
 }
 
 .main__card_content {
-  margin-bottom: 49px;
   background-color: var(--accent-color);
 }
 
@@ -140,8 +142,6 @@
   filter: invert(0.2);
 }
 
-
-
 @media (width <= 375px) {
   .main__card_image {
     width: 374px;
@@ -165,6 +165,14 @@
 
   .card__lcon-button {
     margin-top: 24px;
+  }
+
+.main {
+  gap: 55px;
+}
+
+.main__cards {
+  gap: 52px;
   }
 }
 
@@ -397,9 +405,6 @@
     margin-top: 27px;
   }
 
-  .main__card_content {
-    margin-bottom: 52px;
-  }
   .card__buttons {
     margin: 0;
   }
