@@ -132,7 +132,7 @@
 }
 
 .sepia-hue-rotate {
-  filter: sepia(46%);
+  filter: sepia(46%) hue-rotate(90deg);
 }
 
 .invert {
