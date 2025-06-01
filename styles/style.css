@@ -112,7 +112,7 @@
 }
 
 .brightness {
-  filter: brightness(230%);
+  filter: brightness(23%);
 }
 
 .contrast {
@@ -132,7 +132,7 @@
 }
 
 .sepia-hue-rotate {
-  filter: sepia(46), hue-rotate(-76deg);
+  filter: sepia(46%);
 }
 
 .invert {
