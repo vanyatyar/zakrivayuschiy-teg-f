@@ -14,11 +14,11 @@
   --accent-color: #fff;
   --header-padding: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem);
   --letter-spacing: normal;
-  
-  /* Новые переменные для лейбла */
-  --font-accent: 'PressStart2P', fantasy;
+  --font-accent: "PressStart2P", fantasy;
+  --font-main: "Inter", fantasy;
   --font-size-accent: 14px;
   --lable-stroke-color: #000000;
-  --contour-color:black;
-  --animation-fill-color:red;
+  --contour-color: black;
+  --animation-fill-color: red;
+  --weight-main: 400;
 }
