@@ -7,9 +7,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  font-variation-settings: 'wght' var(--weight-main, 400);
-  font-family: "PressStart2P";
-  font-family: "Inter";
+  font-variation-settings: "wght" var(--weight-main, 400);
   margin: auto;
   width: 700px;
 }
@@ -56,10 +54,6 @@
   line-height: 1;
   letter-spacing: var(--letter-spacing);
   font-weight: 400;
-}
-
-.main {
-  gap: 100px;
 }
 
 @media (width <= 375px) {
@@ -312,20 +306,20 @@
 }
 
 .card__like-button {
-  display: flex;         
-  align-items: center;   
-  justify-content: center; 
-  margin-left: auto;      
-  margin: 0px;           
-  height: 38px;          
-  width: 130px;       
-  background: white;     
-  color: var(--color-accent, #fff); 
-  cursor: pointer;       
-  border: 2px solid black; 
-  font-size: 14px;       
-  font-family: var(--font-accent), sans-serif; 
-  z-index: 2;            
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin: 0px;
+  height: 38px;
+  width: 130px;
+  background: white;
+  color: var(--color-accent, #fff);
+  cursor: pointer;
+  border: 2px solid black;
+  font-size: 14px;
+  font-family: var(--font-accent), sans-serif;
+  z-index: 2;
 }
 
 .button__download {
