@@ -97,7 +97,7 @@
 .main__card_title {
   font-family: var(--font-main), sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-variation-settings: "wght" var(--weight-accent, 700);
   line-height: 100%;
   letter-spacing: 0%;
   box-sizing: border-box;
