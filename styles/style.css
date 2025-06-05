@@ -9,7 +9,6 @@
   background-attachment: fixed;
   font-variation-settings: "wght" var(--weight-main, 400);
   margin: auto;
-  width: 700px;
 }
 
 @media (width <= 375px) {
@@ -111,6 +110,7 @@
 
 .main__card_image {
   display: block;
+  width: 100%;
 }
 
 .brightness {
