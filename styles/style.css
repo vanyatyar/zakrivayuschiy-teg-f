@@ -9,6 +9,7 @@
   background-attachment: fixed;
   font-variation-settings: "wght" var(--weight-main, 400);
   margin: auto;
+  width: 700px;
 }
 
 @media (width <= 375px) {
@@ -27,6 +28,7 @@
   align-items: center;
   min-inline-size: 375px;
   max-inline-size: var(--width, 43.75rem);
+  margin: auto;
   margin-top: 100px;
   height: auto;
   padding: var(--header-padding) 0;
@@ -73,7 +75,7 @@
   margin-bottom: 100px;
   min-inline-size: 375px;
   max-inline-size: var(--width, 43.75rem);
-
+  margin: auto;
 }
 
 .main__cards {
