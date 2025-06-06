@@ -139,10 +139,7 @@
 }
 
 @media (width < 400px) {
-  .main__card_image {
-    width: 37px;
-  }
-
+ 
   .main__card_image {
     width: 100%;
   }
@@ -154,7 +151,7 @@
     padding-right: 2px;
     padding-bottom: 5px;
   }
-}
+
 
 .main__card_text {
   padding-right: 3px;
@@ -174,6 +171,7 @@
 
 .main__card_label {
   position: relative;
+}
 }
 
 .label {
