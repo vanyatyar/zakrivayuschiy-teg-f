@@ -138,12 +138,7 @@
   filter: invert(0.2);
 }
 
-@media (width < 400px) {
- 
-  .main__card_image {
-    width: 100%;
-  }
-}
+
 
 @media (width < 376px) {
   .main__card_title {
@@ -152,6 +147,10 @@
     padding-bottom: 5px;
   }
 
+   .main__card_image {
+    width: 100%;
+  }
+}
 
 .main__card_text {
   padding-right: 3px;
@@ -171,7 +170,6 @@
 
 .main__card_label {
   position: relative;
-}
 }
 
 .label {
