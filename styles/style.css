@@ -160,14 +160,6 @@
   margin-top: 24px;
 }
 
-.main {
-  gap: 55px;
-}
-
-.main__cards {
-  gap: 50px;
-}
-
 .main__card_label {
   position: relative;
 }
