@@ -381,6 +381,10 @@ dialog::backdrop {
   .card__icon-button {
     margin-top: 24px;
   }
+
+  .label {
+  right: 12px;
+  }
 }
 
 .all-button {
